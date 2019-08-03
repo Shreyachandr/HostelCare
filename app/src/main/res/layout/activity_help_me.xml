@@ -26,10 +26,6 @@
                     android:layout_marginTop="20dp" android:textSize="18sp"/>
             <RadioButton
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" android:id="@+id/radioButton3" android:layout_weight="1"
-                    android:text="Ragging" android:textSize="18sp" android:layout_marginTop="20dp"/>
-            <RadioButton
-                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content" android:id="@+id/radioButton4" android:layout_weight="1"
                     android:layout_marginTop="20dp" android:textSize="18sp" android:text="Pressure"/>
             <RadioButton
@@ -42,6 +38,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" android:id="@+id/radioButton5" android:layout_weight="1"
                     android:layout_marginTop="25dp" android:textSize="18sp"/>
+            <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/radioButton3" android:layout_weight="1"
+                    android:text="Ragging" android:textSize="18sp" android:layout_marginTop="20dp"/>
         </RadioGroup>
         <EditText
                 android:layout_width="wrap_content"

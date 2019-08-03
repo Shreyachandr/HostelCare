@@ -37,11 +37,6 @@
                     android:layout_height="wrap_content" android:id="@+id/radioButton6"
                     android:layout_marginTop="15dp" android:textSize="18sp"/>
             <RadioButton
-                    android:text="Ragging"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" android:id="@+id/radioButton8"
-                    android:layout_marginTop="15dp" android:textSize="18sp"/>
-            <RadioButton
                     android:text="Stress"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" android:id="@+id/radioButton9" android:textSize="18sp"
@@ -55,6 +50,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" android:id="@+id/radioButton11" android:textSize="18sp"
                     android:layout_marginTop="15dp"/>
+            <RadioButton
+                    android:text="Ragging"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/radioButton8"
+                    android:layout_marginTop="15dp" android:textSize="18sp"/>
         </RadioGroup>
         <EditText
                 android:layout_height="wrap_content"
