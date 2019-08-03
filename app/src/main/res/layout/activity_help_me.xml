@@ -18,7 +18,7 @@
                     android:text="Depression"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" android:id="@+id/radioButton1" android:layout_weight="1"
-                    android:textSize="18sp" android:layout_marginTop="20dp"/>
+                    android:textSize="18sp" android:layout_marginTop="20dp" android:checked="true"/>
             <RadioButton
                     android:text="Verbal Abuse"
                     android:layout_width="wrap_content"
@@ -32,7 +32,7 @@
                     android:text="Physical Abuse"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" android:id="@+id/radioButton" android:layout_weight="1"
-                    android:textSize="18sp" android:layout_marginTop="25dp"/>
+                    android:textSize="18sp" android:layout_marginTop="20dp"/>
             <RadioButton
                     android:text="Mental harassment"
                     android:layout_width="wrap_content"
@@ -49,11 +49,11 @@
                 android:inputType="textMultiLine"
                 android:ems="10"
                 android:id="@+id/editText3" android:paddingBottom="120px" android:hint="Message"
-                android:paddingTop="100px" android:layout_marginTop="25dp" android:textSize="18sp"/>
+                android:paddingTop="100px" android:layout_marginTop="15dp" android:textSize="18sp"/>
         <Button
                 android:text="Submit"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/button" android:layout_marginTop="50dp"
+                android:layout_height="wrap_content" android:id="@+id/button" android:layout_marginTop="20dp"
                 android:onClick="hms" android:textSize="24sp" android:layout_marginLeft="141dp"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
